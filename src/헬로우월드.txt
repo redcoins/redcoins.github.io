@@ -1,0 +1,28 @@
+1. Node.js 설치
+리액트 개발을 위해서는 먼저 Node.js를 설치해야 합니다.
+Node.js 공식 웹사이트(https://nodejs.org/)에 접속합니다.
+LTS(Long Term Support) 버전을 다운로드하고 설치합니다.
+설치가 완료되면 터미널(명령 프롬프트)에서 다음 명령어로 설치를 확인합니다:
+node --version
+npm --version
+
+2. 리액트 프로젝트 생성
+터미널을 열고 프로젝트를 만들고 싶은 디렉토리로 이동합니다.
+다음 명령어로 새 리액트 프로젝트를 생성합니다:
+npx create-react-app my-first-react-app
+프로젝트 폴더로 이동합니다:
+cd my-first-react-app
+
+3. 프로젝트 구조 이해하기
+생성된 프로젝트 폴더의 주요 파일과 디렉토리:
+public/: 정적 파일들이 위치하는 폴더
+src/: 리액트 소스 코드가 위치하는 폴더
+package.json: 프로젝트 설정 및 의존성 정보
+README.md: 프로젝트 설명 문서
+
+4. 개발 서버 실행
+프로젝트 폴더에서 다음 명령어로 개발 서버를 실행합니다:
+npm start
+
+Module not found: Error: Can't resolve 'web-vitals' 발생시
+npm install web-vitals --save-dev
