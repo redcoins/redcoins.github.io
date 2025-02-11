@@ -8,8 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          헬로우가 월드입니다.
-        </p>        
+          범인은<br/>헬로우가에 사는 김월드씨로 밝혀졌습니다.
+        </p>
       </header>
     </div>
   );
